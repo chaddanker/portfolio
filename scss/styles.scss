@@ -1,7 +1,7 @@
 /*!
     Title: Chad Danker Portfolio
     Version: 1.0.0
-    Last Change: 11/3/2020
+    Last Change: 11/4/2020
     Author: Chad Danker
     Repo: https://github.com/chaddanker/portfolio
     Issues: https://github.com/chaddanker/portfolio/issues
@@ -181,7 +181,7 @@ header {
         }
 
         &:focus {
-            color: $base-color;
+            color: $text;
             text-decoration: none;
         }
     }
@@ -339,7 +339,7 @@ footer {
     position: relative;
     display: inline-block;
     font-size: 2em;
-    font-weight: 500;
+    font-weight: 700;
     margin: 0 0 30px 0;
 
     &:after {

@@ -12,6 +12,18 @@
     <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
+
+
+    <!-- Start of Async Callbell Code -->
+    <script>
+        window.callbellSettings = {
+            token: "awawyVYset85GEVBXnDWrytW"
+        };
+    </script>
+    <script>
+        (function(){var w=window;var ic=w.callbell;if(typeof ic==="function"){ic('reattach_activator');ic('update',callbellSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Callbell=i;var l=function(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://dash.callbell.eu/include/'+window.callbellSettings.token+'.js';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);};if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()
+    </script>
+    <!-- End of Async Callbell Code -->
 </head>
 
 <body>
@@ -146,24 +158,40 @@
 
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img height="300" width="300" src="images/createShirt.png" />
+                        <img height="300" width="300" src="images/saySomething.png" />
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Create a shirt</h3>
+                        <h3>Say Something</h3>
                         <p>
-                            Create your own T-Shirt designs with a combination of custom text, emoji's or your own images.
+                            Create your own T-Shirt designs with a combination of custom text, emoji's or your own images. The idea is to create strong messages and wear them, make a statement!
                         </p>
-                        <a href="https://client-beta-henna.vercel.app/">View Project</a>
+                        <a href="https://say-something.vercel.app/">View Project</a>
                     </div>
                     <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
+                    </div>
+                    <!-- End .project -->
+
+                    <div class="project shadow-large">
+                        <div class="project-image">
+                            <img height="300" width="300" src="images/calculator.png" />
+                        </div>
+                        <!-- End .project-image -->
+                        <div class="project-info">
+                            <h3>Javascript Calculator</h3>
+                            <p>
+                                A fully functional calculator built with Javascript. It follows BODMAS/ PEDMAS order of operations.
+                            </p>
+                            <a href="https://fcc-javascript-calculator-kappa.vercel.app/">View Project</a>
+                        </div>
+                        <!-- End .project-info -->
+                    </div>
+                    <!-- End .project -->            
 
                 <div class="project shadow-large">
                     <div class="project-image">
                         <img height="150" width="300" src="images/webTv.png" />
-                    </div>
+                    </div> 
                     <!-- End .project-image -->
                     <div class="project-info">
                         <h3>Web-TV</h3>
@@ -172,9 +200,9 @@
                         </p>
                         <a href="https://web-tv.vercel.app/">View Project</a>
                     </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
+
+                    </div> 
+                <!-- End .project
             </div>
         </div>
     </div>
@@ -206,7 +234,7 @@
     <!-- End #skills -->
 
     <div id="contact">
-        <h2>Get in Touch</h2>
+        <h2 class="heading">Contact Me</h2>
         <div id="contact-form">
             <form method="POST" action="https://formspree.io/f/xvovrwno">
                 <input type="hidden" name="_subject" value="Contact request from personal website" />
